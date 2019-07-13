@@ -1,19 +1,17 @@
 body {
     font-family: Helvetica, Verdana, sans-serif;
     background-color: #EAE7DC;
-}
-#name {
-    font-weight: normal; 
-    font-size: 200%
-    color: #E85A4F;
-    margin: 10px auto 25px auto;
-}
-#page {
     max-width: 940px;
     min-width: 720px;
     margin: 10px auto 10px auto;
     padding: 20px
 }
+#name {
+    font-weight: normal; 
+    font-size: 200%;
+    color: #E85A4F;
+    margin: 10px auto 25px auto;
+    text-align: center;
 
 
 ul {
@@ -22,9 +20,11 @@ ul {
     margin: 0px auto 0px auto;
     border-top: 2px solid #000;
     border-bottom: 1px solid #000;
+    display: inline;
     text-align: center;
 }
 li {
+    color: #000000;
     display: inline;
     margin: 0px 3px;
 }
@@ -36,7 +36,6 @@ a {
 
 a:hover, a.on {
     color: #cc3333;
-    background-color: #ffffff;
 }
 .footer {
     position: fixed;
