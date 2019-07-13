@@ -6,13 +6,13 @@ body {
     margin: 10px auto 10px auto;
     padding: 20px
 }
-#name {
+h1 {
     font-weight: normal; 
     font-size: 200%;
     color: #E85A4F;
     margin: 10px auto 25px auto;
     text-align: center;
-
+}
 
 ul {
     width: 570px;
@@ -36,6 +36,7 @@ a {
 
 a:hover, a.on {
     color: #cc3333;
+    background-color: #EAE7DC;
 }
 .footer {
     width: max-content
