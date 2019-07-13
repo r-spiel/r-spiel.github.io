@@ -11,12 +11,13 @@ h1 {
     font-size: 200%;
     color: #E85A4F;
     margin: 10px auto 25px auto;
+    padding: 15px;
     text-align: center;
 }
 
 ul {
     padding: 15px;
-    margin: 0px auto 0px auto;
+    margin: 5px auto 5px auto;
     border-top: 2px solid #000;
     border-bottom: 1px solid #000;
     display: inline;
@@ -26,6 +27,7 @@ li {
     color: #000000;
     display: inline;
     margin: 0px 3px;
+    text-align: center;
 }
 
 a {
