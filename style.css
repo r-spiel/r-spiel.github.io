@@ -10,12 +10,11 @@ h1 {
     font-weight: normal; 
     font-size: 200%;
     color: #E85A4F;
-    margin: 10px auto 25px auto;
+    margin: 5px auto 5px auto;
     text-align: center;
 }
 
 ul {
-    width: 570px;
     padding: 15px;
     margin: 0px auto 0px auto;
     border-top: 2px solid #000;
@@ -36,10 +35,8 @@ a {
 
 a:hover, a.on {
     color: #cc3333;
-    background-color: #EAE7DC;
 }
 .footer {
-    width: max-content
     position: fixed;
     left: 0;
     bottom: 0;
