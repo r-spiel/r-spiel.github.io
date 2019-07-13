@@ -38,10 +38,11 @@ a:hover, a.on {
     color: #cc3333;
 }
 .footer {
+    width: max-content
     position: fixed;
     left: 0;
     bottom: 0;
-    padding: 50px;
+    padding: 30px;
     background-color: black;
     color: white !important;
     text-align: center;
