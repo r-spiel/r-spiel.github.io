@@ -1,32 +1,49 @@
 body {
     font-family: Helvetica, Verdana, sans-serif;
-    background-color: #EAE7DC;}
-h1 {font-weight: normal; 
-    color: #E85A4F}
-p   {color: black}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white !important;
-    text-align: center;
+    background-color: #EAE7DC;
 }
+#name {
+    font-weight: normal; 
+    font-size: 200%
+    color: #E85A4F;
+    margin: 10px auto 25px auto;
+}
+#page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 20px
+}
+
+
 ul {
     width: 570px;
     padding: 15px;
-    margin: 10px auto 25px auto;
+    margin: 0px auto 0px auto;
     border-top: 2px solid #000;
     border-bottom: 1px solid #000;
     text-align: center;
 }
+li {
+    display: inline;
+    margin: 0px 3px;
+}
 
 a {
+    color: #000000;
     padding: 6px 18px 5px 18px;
 }
 
 a:hover, a.on {
     color: #cc3333;
     background-color: #ffffff;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 50px;
+    background-color: black;
+    color: white !important;
+    text-align: center;
 }
