@@ -17,10 +17,10 @@ ul {
     padding: 15px;
     margin: auto;
     width: 100%;
+    background-color: grey;
     border-top: 2px solid #000;
     border-bottom: 1px solid #000;
     text-align: center;
-    background-color: #8E8D8A;
 }
 li {
     float: left;
@@ -37,9 +37,7 @@ li a {
 li a:hover, a.on {
     background: black;
 }
-li .active {
-    color: #E98074;
-}
+
 
 .footer {
     width: 100%;
