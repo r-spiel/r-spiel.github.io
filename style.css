@@ -20,7 +20,7 @@ ul {
     border-top: 2px solid #000;
     border-bottom: 1px solid #000;
     text-align: center;
-    background-color: rgba(126, 125, 123, 0.61)
+    background-color: rgba(126, 125, 123, 0.61);
 }
 li {
     float: left;
