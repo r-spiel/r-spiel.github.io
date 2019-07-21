@@ -5,8 +5,7 @@ body {
     padding: 20px
 }
 #name {
-    font-family:Zefani-Regular, Helvetica, sans-serif;
-    src:"Zefani-Regular.otf";
+    font-family:'zefaniregular', Helvetica, sans-serif;
     font-weight: normal; 
     font-size: 200%;
     color: #E85A4F;
@@ -15,9 +14,12 @@ body {
 }
 
 @font-face {
-    font-family:Zefani;
-    src:"Zefani-Regular.otf";
-    src:"ZefaniSans-SemiLight.otf";
+    font-family: 'zefaniregular';
+    src: url('https://richellespiel.com/fonts/zefani-regular-webfont.woff2') format('woff2'),
+         url('https://richellespiel.com/fonts/zefani-regular-webfont.woff') format('woff'),
+         url('https://richellespiel.com/fonts/zefani-regular-webfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 ul {
