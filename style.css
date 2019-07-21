@@ -7,7 +7,7 @@ body {
 #name {
     font-family:'zefaniregular', Helvetica, sans-serif;
     font-weight: normal; 
-    font-size: 200%;
+    font-size: 300%;
     color: #E85A4F;
     padding: 10px;
     text-align: center;
@@ -16,11 +16,11 @@ body {
 #name_overline {
     font-family: 'zefaniregular';
     position: relative;
-    left: -13px;
-    top: -140px;
+    left: -8px;
+    top: -200px;
     padding: 10px;
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
     
     stroke: #01b9e1;
     stroke-width: 0.5px;
