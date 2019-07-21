@@ -5,6 +5,8 @@ body {
     padding: 20px
 }
 #name {
+    font-family:Zefani;
+    src:"ZefaniStencil(uppercase)-Regular.otf";
     font-weight: normal; 
     font-size: 200%;
     color: #E85A4F;
