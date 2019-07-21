@@ -15,9 +15,12 @@ body {
 
 @font-face {
     font-family: 'zefaniregular';
-    src: url('https://richellespiel.com/fonts/zefani-regular-webfont.woff2') format('woff2'),
+    src: url('https://richellespiel.com/fonts/zefani-regular-webfont.eot');
+    src: url('https://richellespiel.com/fonts/zefani-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://richellespiel.com/fonts/zefani-regular-webfont.woff2') format('woff2'),
          url('https://richellespiel.com/fonts/zefani-regular-webfont.woff') format('woff'),
-         url('https://richellespiel.com/fonts/zefani-regular-webfont.otf') format('opentype');
+         url('https://richellespiel.com/fonts/zefani-regular-webfont.ttf') format('truetype'),
+         url('https://richellespiel.com/fonts/zefani-regular-webfont.svg#zefaniregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
