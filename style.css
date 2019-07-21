@@ -14,14 +14,21 @@ body {
 }
 
 #name_overline {
-    stroke: #01b9e1;
     font-family: 'zefaniregular';
+    stroke: #01b9e1;
     stroke-width: 0.5px;
     fill: transparent;
     mix-blend-mode: darken;
+
+    -webkit-text-stroke: 2px #01b9e1;
+    -webkit-text-fill-color: transparent;
+   
     position: relative;
     left: -13px;
     top: 3px;
+    padding: 10px;
+    text-align: center;
+    font-size: 200%;
 }
 
 @font-face {
