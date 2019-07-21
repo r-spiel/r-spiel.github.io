@@ -13,6 +13,17 @@ body {
     text-align: center;
 }
 
+#name_overline {
+    stroke: #01b9e1;
+    font-family: 'zefaniregular';
+    stroke-width: 0.5px;
+    fill: transparent;
+    mix-blend-mode: darken;
+    position: relative;
+    left: -13px;
+    top: 3px;
+}
+
 @font-face {
     font-family: 'zefaniregular';
     src: url('https://richellespiel.com/fonts/zefani-regular-webfont.eot');
