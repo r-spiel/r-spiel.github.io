@@ -5,13 +5,19 @@ body {
     padding: 20px
 }
 #name {
-    font-family:Zefani;
-    src:"ZefaniStencil(uppercase)-Regular.otf";
+    font-family:Zefani-Regular, Helvetica, sans-serif;
+    src:"Zefani-Regular.otf";
     font-weight: normal; 
     font-size: 200%;
     color: #E85A4F;
     padding: 10px;
     text-align: center;
+}
+
+@font-face {
+    font-family:Zefani;
+    src:"Zefani-Regular.otf";
+    src:"ZefaniSans-SemiLight.otf";
 }
 
 ul {
