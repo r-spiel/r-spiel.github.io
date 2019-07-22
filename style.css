@@ -34,7 +34,8 @@ body {
     position: relative;
     text-align: center;
     font-weight: bold;
-    top: -250px;
+    top: -275px;
+    left: 55px;
 }
 
 @font-face {
