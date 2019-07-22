@@ -23,7 +23,7 @@ body {
     font-size: 300%;
     
     stroke: #01b9e1;
-    stroke-width: 0.5px;
+    stroke-width: 0.3px;
     fill: transparent;
     mix-blend-mode: darken;
 
@@ -33,6 +33,7 @@ body {
 #wip {
     color: rgb(92, 91, 91);
     text-align: center;
+    font-weight: bold;
 }
 
 @font-face {
