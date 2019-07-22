@@ -17,10 +17,11 @@ body {
     font-family: 'zefaniregular';
     position: relative;
     left: -6px;
-    top: -256px;
+    top: -258px;
     padding: 10px;
     text-align: center;
     font-size: 300%;
+    opacity: 0.5;
     
     stroke: #01b9e1;
     stroke-width: 0.3px;
@@ -32,6 +33,7 @@ body {
 }
 #wip {
     color: rgb(92, 91, 91);
+    position: relative;
     text-align: center;
     font-weight: bold;
 }
