@@ -37,6 +37,7 @@ body {
     position: relative;
     text-align: center;
     font-weight: bold;
+    top: -250px;
 }
 
 @font-face {
