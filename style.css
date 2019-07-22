@@ -1,5 +1,4 @@
 body {
-    position: relative;
     font-family: Helvetica, Verdana, sans-serif;
     background-color: #EAE7DC;
     margin: 0px auto 10px auto;
@@ -17,12 +16,11 @@ body {
 #name_overline {
     font-family: 'zefaniregular';
     position: relative;
-    left: -6px;
+    left: -5px;
     top: -258px;
     padding: 10px;
     text-align: center;
     font-size: 300%;
-    opacity: 0.5;
     
     stroke: #01b9e1;
     stroke-width: 0.3px;
