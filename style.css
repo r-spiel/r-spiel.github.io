@@ -38,7 +38,8 @@ body {
     top: -323px;
     left: -85px;
     letter-spacing: 0.4em;
-    word-spacing: 2em;
+    word-spacing: 3em;
+    font-size: 110%;
 }
 
 @font-face {
