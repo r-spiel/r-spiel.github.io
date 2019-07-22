@@ -16,8 +16,8 @@ body {
 #name_overline {
     font-family: 'zefaniregular';
     position: relative;
-    left: -8px;
-    top: -250px;
+    left: -6px;
+    top: -260px;
     padding: 10px;
     text-align: center;
     font-size: 300%;
@@ -28,8 +28,11 @@ body {
     mix-blend-mode: darken;
 
     -webkit-text-stroke: .5px #01b9e1;
-    -webkit-text-fill-color: transparent; 
-    
+    -webkit-text-fill-color: transparent;  
+}
+#wip {
+    color: rgb(92, 91, 91);
+    text-align: center;
 }
 
 @font-face {
