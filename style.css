@@ -7,7 +7,7 @@ body {
 #name {
     font-family:'zefaniregular', Helvetica, sans-serif;
     font-weight: normal; 
-    font-size: 300%;
+    font-size: 310%;
     color: rgb(226, 107, 99);
     padding: 10px;
     text-align: center;
@@ -19,7 +19,7 @@ body {
     left: -5px;
     top: -248px;
     text-align: center;
-    font-size: 300%;
+    font-size: 310%;
     
     stroke: #01b9e1;
     stroke-width: 0.3px;
@@ -35,7 +35,7 @@ body {
     position: relative;
     text-align: center;
     font-weight: bold;
-    top: -323px;
+    top: -321px;
     left: -85px;
     letter-spacing: 0.4em;
     word-spacing: 3em;
