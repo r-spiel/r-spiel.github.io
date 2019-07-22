@@ -8,7 +8,7 @@ body {
     font-family:'zefaniregular', Helvetica, sans-serif;
     font-weight: normal; 
     font-size: 300%;
-    color: #E85A4F;
+    color: rgb(226, 107, 99);
     padding: 10px;
     text-align: center;
 }
@@ -17,7 +17,7 @@ body {
     font-family: 'zefaniregular';
     position: relative;
     left: -5px;
-    top: -258px;
+    top: -248px;
     text-align: center;
     font-size: 300%;
     
