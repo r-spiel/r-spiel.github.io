@@ -78,7 +78,6 @@ ul {
 }
 li {
     float: left;
-    display: block;
 }
 
 li a, .dropbtn {
@@ -98,6 +97,7 @@ li.dropdown {
     display: inline-block;
 }
 
+/* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -107,7 +107,9 @@ li.dropdown {
     z-index: 1;
 }
 
+/* Links inside the dropdown */
 .dropdown-content a {
+    float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -115,10 +117,12 @@ li.dropdown {
     text-align: left;
 }
 
+/* Add background color to dropdown link on hover */
 .dropdown-content a:hover {
     background-color:rgb(187, 184, 175);
 }
 
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
 display: block;
 }
