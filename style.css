@@ -66,35 +66,38 @@ body {
     font-style: normal;
 }
 
-ul {
-    list-style-type: none;
-    position: fixed;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+
+.navbar {
     overflow: hidden;
     background-color: rgb(92, 91, 91);
 }
-li {
-    float: left;
-}
 
-li a, .dropbtn {
-    display: inline-block;
+.navbar a{
+    float: left;
+    font-size: 16px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-/* Change the link color to black on hover */
-li a:hover, a.on, .dropdown:hover .dropbtn {
-    background: black;
+
+.dropdown {
+    float: left;
+    overflow: hidden;
 }
 
-/* Begin dropdown only styles */
-li.dropdown {
+.dropdown .dropbtn {
+    font-size: 16px;
     display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+}
+/* Change the link color to black on hover */
+.navbar a:hover, a.on, .dropdown:hover .dropbtn {
+    background: black;
 }
 
 /* Dropdown content (hidden by default) */
@@ -103,7 +106,7 @@ li.dropdown {
     position: absolute;
     background-color: rgb(211, 208, 197);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.4);
     z-index: 1;
 }
 
