@@ -66,39 +66,29 @@ body {
     font-style: normal;
 }
 
-.navbar li {
-    display: inline-block;
-}
 
-.navbar ul{
+ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: rgb(92, 91, 91);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-.navbar a{
-    list-style-type: none;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: rgb(92, 91, 91);
+ul.navbar li {
+    float: left;
 }
 
-.dropdown {
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
+ul.navbar li a {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    margin: 0;
 }
+
 /* Change the link color to black on hover */
 .navbar a:hover, a.on, .dropdown:hover .dropbtn {
     background: black;
