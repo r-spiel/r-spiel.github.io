@@ -15,9 +15,9 @@ body {
 
 #name_overline {
     font-family: 'zefaniregular';
-    position: fixed;
+    position: relative;
     left: -5px;
-    top: -210px;
+    top: -248px;
     text-align: center;
     font-size: 300%;
     
@@ -32,10 +32,10 @@ body {
 #wip {
     font-family: 'zefani_sansregular';
     color: rgb(92, 91, 91);
-    position: absolute;
+    position: relative;
     text-align: center;
     font-weight: bold;
-    top: -10px;
+    top: -321px;
     left: -85px;
     letter-spacing: 0.2em;
     word-spacing: 0.75em;
@@ -82,7 +82,7 @@ ul.navbar li {
 }
 
 ul.navbar li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
