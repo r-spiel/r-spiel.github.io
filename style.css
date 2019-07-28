@@ -22,7 +22,7 @@ body {
     font-size: 300%;
     
     stroke: #01b9e1;
-    stroke-width: 0.1px;
+    stroke-width: 0.2px;
     fill: transparent;
     mix-blend-mode: darken;
 
@@ -80,6 +80,7 @@ ul.navbar {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 
 ul.navbar li {
@@ -108,7 +109,7 @@ ul.navbar li a {
     color: black;
     min-width: 160px;
     
-    z-index: 1;
+    z-index: 2;
 }
 
 /* Links inside the dropdown */
