@@ -22,7 +22,7 @@ body {
     font-size: 300%;
     
     stroke: #01b9e1;
-    stroke-width: 0.2px;
+    stroke-width: 0.1px;
     fill: transparent;
     mix-blend-mode: darken;
 
@@ -40,6 +40,11 @@ body {
     letter-spacing: 0.2em;
     word-spacing: 0.75em;
     font-size: 110%;
+}
+
+.bodytext {
+    position: relative;
+    top: -250px;
 }
 
 @font-face {
