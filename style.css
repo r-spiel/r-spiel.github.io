@@ -26,7 +26,7 @@ body {
     fill: transparent;
     mix-blend-mode: darken;
 
-    -webkit-text-stroke: 1px #01b9e1;
+    -webkit-text-stroke: 2px #01b9e1;
     -webkit-text-fill-color: transparent;  
 }
 #wip {
