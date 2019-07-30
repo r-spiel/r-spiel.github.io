@@ -10,6 +10,7 @@ body {
     font-family:'zefaniregular', Helvetica, sans-serif;
     font-weight: normal; 
     font-size: 300%;
+    letter-spacing: 0.2em;
     color: rgb(226, 107, 99);
     padding: 10px;
     text-align: center;
@@ -22,6 +23,7 @@ body {
     top: -248px;
     text-align: center;
     font-size: 300%;
+    letter-spacing: 0.2em;
     
     stroke: #01b9e1;
     stroke-width: 0.2px;
@@ -78,7 +80,7 @@ ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(92, 91, 91);
+    background-color: #8E8D8A;
     position: fixed;
     top: 0;
     width: 100%;
@@ -106,7 +108,7 @@ ul.navbar li a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(150, 136, 136);
+    background-color: #D8C3A5;
     color: black;
     min-width: 160px;
     
@@ -126,7 +128,7 @@ ul.navbar li a {
 
 /* Add background color to dropdown link on hover */
 .dropdown-content a:hover {
-    background-color:rgb(72, 97, 107);
+    background-color: rgb(114, 162, 207);
 }
 
 /* Show the dropdown menu on hover */
