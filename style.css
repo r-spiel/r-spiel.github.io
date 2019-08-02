@@ -6,6 +6,10 @@ body {
     padding: 20px
 }
 
+h2 {
+    padding:15px;
+}
+
 #name {
     font-family:'zefaniregular', Helvetica, sans-serif;
     font-weight: normal; 
