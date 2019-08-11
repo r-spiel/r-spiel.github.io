@@ -63,6 +63,16 @@ h2 {
     padding: 10px;
 }
 
+.listening li {
+    list-style-type: none;
+}
+
+.listening li:before {
+    content: 'U+2764';
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
 @font-face {
     font-family: 'zefaniregular';
     src: url('https://richellespiel.com/fonts/zefani-regular-webfont.eot');
