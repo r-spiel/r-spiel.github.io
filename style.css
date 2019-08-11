@@ -56,6 +56,12 @@ h2 {
     top: -250px;
 }
 
+#listening {
+    float: right;
+    width: 300px;
+    border: 2px solid rgb(226, 107, 99);
+}
+
 @font-face {
     font-family: 'zefaniregular';
     src: url('https://richellespiel.com/fonts/zefani-regular-webfont.eot');
