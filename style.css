@@ -11,6 +11,7 @@ h2 {
     margin: 10px 10px 10px 10px;
 }
 
+
 #name {
     font-family:'zefaniregular', Helvetica, sans-serif;
     font-weight: normal; 
@@ -73,6 +74,10 @@ h2 {
     margin-left: -20px;
     margin-right: 10px;
     margin-bottom: 5px;
+}
+
+.listening a {
+    color: #006747FF;
 }
 
 @font-face {
