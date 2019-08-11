@@ -68,7 +68,7 @@ h2 {
 }
 
 .listening li::before {
-    content: "\02764";
+    content: "❤️";
     margin-left: -20px;
     margin-right: 10px;
 }
