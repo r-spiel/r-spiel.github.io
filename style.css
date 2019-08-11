@@ -76,8 +76,21 @@ h2 {
     margin-bottom: 5px;
 }
 
-.listening a {
-    color: #006747FF;
+.reading {
+    border: 4px solid rgb(226, 107, 99);
+    padding: 10px;
+    margin: 10px;
+}
+
+.reading li {
+    list-style-type: none;
+}
+
+.reading li::before {
+    content: "❤️";
+    margin-left: -20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 @font-face {
