@@ -68,7 +68,7 @@ h2 {
 }
 
 .listening li:before {
-    content: 'U+2764';
+    content: '&#9829';
     margin-left: -20px;
     margin-right: 10px;
 }
