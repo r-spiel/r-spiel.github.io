@@ -67,8 +67,8 @@ h2 {
     list-style-type: none;
 }
 
-.listening li:before {
-    content: '&#9829';
+.listening li::before {
+    content: "\02764";
     margin-left: -20px;
     margin-right: 10px;
 }
