@@ -58,13 +58,13 @@
 
     <!--Add photos to top of page-->
     <p style="text-align:center;">
-        <img src="oldversionwebsite.jpg" alt="image of older version of this site" 
+        <img src="HelloWorldSitePic.jpg" alt="Image of the first rendition of this site, says Hello World" 
         width="320px" float="center">
         
         <img src="Naviwebsite.jpg" alt="image of kitten Navi with my website" 
         width="320px" float="center">
         
-        <img src="SitewithHTML.jpg" alt="image of screen with site & HTML code showing" 
+        <img src="oldversionwebsite.jpg"  alt="image of older version of this site, with basic nav and links" 
         width="320px" float="center">
     </p>
         
@@ -99,14 +99,17 @@
             take screen shots!  It’s really fun to think about how far you have come. 
             Unfortunately, I do not have screen shots for every step.  
 
+            <!--Beginning of 13 steps to build this site-->
             <ol>
-                <li><b>Basic Understandings</b>: My first step was to gain a basic 
+                <li>
+                    <b>Basic Understandings</b>: My first step was to gain a basic 
                     understanding of how to build a website.  I did this by reading through 
-                    the first parts of John Duckett's book a couple times until I felt 
+                    the first parts of John Duckett's book, HTML & CSS, a couple times until I felt 
                     like I had a decent understanding of how websites work - I learned 
                     that I needed a domain name and I needed a host and those are 2 
                     completely separate things.  </li>
-                <li><b>Domain Name:</b> I bought my domain: richellespiel.com from google 
+                <li>
+                    <b>Domain Name:</b> I bought my domain: richellespiel.com from google 
                     domains for $12 per year.  <i>*Note - you can host your site on 
                         GitHub pages without using a custom domain name, it's not required 
                         but it was something I wanted, so I went for it. </i> 
@@ -123,25 +126,64 @@
                     GitHub account and you can use a custom domain!  I felt like it was 
                     a little tricky to get everything working correctly.  I used these 
                     resources to work it all out: <br />
-                    *<a href="https://pages.github.com/" title="https://pages.github.com/" target="_blank" 
+                    ➡️ <a href="https://pages.github.com/" title="https://pages.github.com/" target="_blank" 
                     style="color:rgb(6, 119, 119);" >GitHub Pages</a> <br />
-                    *<a href="https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a" target="_blank" 
+                    ➡️ <a href="https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a" target="_blank" 
                     style="color:rgb(6, 119, 119);" >Using custom domain for GitHub pages</a> 
                     -  a Medium article by Hossain Khan<br />
-                    *<a href="https://code.visualstudio.com/" title="code.visualstudio.com" target="_blank" 
-                    style="color:rgb(6, 119, 119);" >VS Code</a> - I used the VS Code text editor to write my code. <br /> 
-                    * I used GitHub Desktop to push my changes to my GitHub repository.  <br />
-                    <i>While I list this in one step, in reality, it took me a while to 
+                    ➡️ <a href="https://code.visualstudio.com/" title="code.visualstudio.com" target="_blank" 
+                    style="color:rgb(6, 119, 119);" >VS Code</a> - I used the VS Code text 
+                    editor to write my code. <br /> 
+                    ➡️ I used GitHub Desktop to push my changes to my GitHub repository.  <br />
+                    <i>While I list this in one step, in reality, this process took me a while to 
                         work out all these details.  There was a lot of researching and trial 
                         and error.  
                     </i><br />
                     After all these logistics, after LOTS of trial and error, when I finally 
                     typed in my domain and saw this, I laughed with relief.  I was so proud!  😂
-                    <img src="HelloWorldSite.png" alt="image of the first version of this site, 
-                    which only said Hello World" title="Hello World, the first rendition of my site!">
-                    I even shared this some friends - their reaction: slow. clap.  
+                    <img src="HelloWorldSitePic.jpg" alt="image of the first version of this site, 
+                    which only said Hello World" title="Hello World, the first rendition of my site!"> <br /> 
                 </li>
-                
+                <li>
+                    <b>Linking to pages:</b> Now that I knew where to write my code (in VS Code), 
+                    and how to upload it to be hosted on GitHub (via GitHub Desktop), I needed to 
+                    start to lay out the map for the site by adding different pages.  I decided to 
+                    build a Bio page, and a resources page.  Pg. 80 of the Duckett book was 
+                    helpful.  At this stage, the links to these new pages were listed in bullet point
+                    format on the home page.  Each page is a separate HTML document.  <br />
+                </li>
+                <li>
+                    <b>CSS:</b> Once I had a few different pages on my site, I decided that I was 
+                    ready to add some style.  I started reading about CSS and began googling 
+                    things like "best website colors" which returned some great resources and 
+                    hexcodes (color codes) for me to use on my site!  I followed the advice in the 
+                    Duckett book, and made my CSS style sheet a separate file from my HTML and 
+                    linked to it.  <br />
+                    At this point I also started experimenting with adding a Navigation Bar at the top. <br />
+                    <img src="LinktoStyleSheet.jpg" alt="image of the code to linke to Style Sheet" 
+                    title="Link to style sheet - separate .CSS file"> 
+                    <img src="oldversionwebsite.jpg"  alt="image of older version of this site, with basic 
+                    nav and links" width="320px"><br /> 
+                </li>
+                <li>
+                    <b>Navigation Bar & Footer:</b> Starting with the footer, I decided that this would 
+                    help my site look more legitimate.  After trying 1 tutorial that didn’t work for me, 
+                    I found <a href="https://www.w3schools.com/howto/howto_css_fixed_footer.asp" 
+                    title="https://www.w3schools.com/howto/howto_css_fixed_footer.asp" target="_blank" 
+                    style="color:rgb(6, 119, 119);" >this</a>this tutorial from W3Schools about footers 
+                    was very helpful.  I then decided to tackle the Navigation Bar.  This was a little 
+                    more tricky for me.  I started out using <a href="https://www.w3schools.com/css/css_navbar.asp" 
+                    title="https://www.w3schools.com/css/css_navbar.asp" target="_blank" 
+                    style="color:rgb(6, 119, 119);" >this</a> tutorial from W3 Schools.  
+                    And then once I added my dropdown menu, I re-wrote it all in div elements 
+                    to make it work better (link to that later on).  <br />
+                    Having the nav bar and footer was a great feeling!! 🎉🎉🎉  It really made the site 
+                    look and function so much more professionally!  The Nav Bar was even responsive - 
+                    where if you hovered over one of the links it would change color!  I was very proud.  
+                </li>
+                <li>
+
+                </li>
             </ol>
 
         </p>
