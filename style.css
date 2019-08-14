@@ -52,6 +52,12 @@ h2 {
     font-size: 110%;
 }
 
+#font-demo {
+    font-family: 'zefani_sansregular';
+    text-align: center;
+    font-size: 200%;
+}
+
 .bodytext {
     position: relative;
     top: -250px;
