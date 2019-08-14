@@ -53,7 +53,7 @@ h2 {
 }
 
 #font-demo {
-    font-family: 'zefaniregular';
+    font-family:'zefaniregular', Helvetica, sans-serif;
     text-align: center;
     font-size: 200%;
 }
