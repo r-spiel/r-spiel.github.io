@@ -158,7 +158,7 @@ ul.navbar li a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #EAE7DC;
+    background-color: rgb(228, 168, 141);
     color: black;
     min-width: 160px;
     text-align: left;
