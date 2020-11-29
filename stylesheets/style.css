@@ -53,19 +53,32 @@ nav a {
     text-decoration: none;
 }
 
-/* arrow-down did not want to be inline with Portfolio... will come back to this... it was inside the a element */
-/* .arrow-down {
-    width: 0; 
-    height: 0; 
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    
-    border-top: 12px solid rgb(0, 0, 0);
-  } */
-
 main {
     flex: 1 0 auto;
     padding: 5px 5px;
+}
+
+.typwriter h1 {
+    overflow: hidden;
+    border-right: .15em solid orange; /* the type writer cursor */
+    white-space: nowrap; /* keeps content on a single line */
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
 }
 
 footer {
