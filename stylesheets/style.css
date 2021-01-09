@@ -15,18 +15,17 @@ html, body {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #B7E3E4;
+    background-color: #FFFEF2;
     color: black;
     display: flex;
     flex-direction: column;
 }
 
 header {
-    border: thick double #CA054D;
+    border: thick double #F03F35;
     position: sticky;
     top: 0;
-    background-color: #B7E3E4;
-    background-color: #9de5e9;
+    background-color: #FFFEF2;
 }
 
 #name {
@@ -34,7 +33,7 @@ header {
     font-weight: 700;
     font-size: 60px;
     text-align: center;
-    color: #F03F35
+    color: #504f4a;
 }
 
 nav ul {
